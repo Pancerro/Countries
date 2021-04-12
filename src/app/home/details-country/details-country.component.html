@@ -1,0 +1,23 @@
+<div *ngIf="loadingCountry else loading" class="country-container">
+  <div class="country-card">
+    <p class="country-header">
+      <img [src]="country?.flag">
+      <span> {{country?.name}}: </span>
+    </p>
+    <div class="country-details">
+      <p class="underline"> Capital: {{country?.capital | noData}}</p>
+    </div>
+    <div class="country-details">
+      <p class="underline"> Currency: {{country?.currencies[0].name | noData}}</p>
+    </div>
+    <div class="country-details">
+      <p class="underline"> Population: {{country?.population | noData}}</p>
+    </div>
+    <div class="country-details">
+      <p class="underline"> Area: {{country?.area | noData}} km²</p>
+    </div>
+  </div>
+</div>
+<ng-template #loading>
+  <mat-spinner class="center"></mat-spinner>
+</ng-template>

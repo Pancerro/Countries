@@ -1,0 +1,8 @@
+<header>
+  <button *ngIf="ifBackButton" mat-raised-button class="back-button"
+          (click)="back()"> < back</button>
+  <div *ngIf="!ifBackButton" class="back-button"></div>
+    <img src="assets/logo.jfif">
+  <button mat-raised-button class="about-button"
+          (click)="aboutMe()"> about</button>
+</header>

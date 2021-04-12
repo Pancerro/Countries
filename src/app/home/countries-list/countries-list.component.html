@@ -1,0 +1,16 @@
+<div *ngIf="loadingCountryInRegion else loading" class="country-container">
+  <h1>{{this.region}}</h1>
+  <div class="country-card" (click)="getDetails(country)"
+       *ngFor="let country of countryInRegion;
+               let odd = odd;"
+       [ngClass]="{'odd': odd}">
+      <img [src]="country.flag">
+      <span> {{country.name}} </span>
+  </div>
+</div>
+<div *ngIf="error">
+  Error...
+</div>
+<ng-template #loading>
+  <mat-spinner class="center"></mat-spinner>
+</ng-template>

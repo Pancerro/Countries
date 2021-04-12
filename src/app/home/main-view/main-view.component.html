@@ -1,0 +1,6 @@
+<div class="main-view">
+    <button mat-raised-button *ngFor="let region of regionTable"
+            (click)="goToRegion(region)" class="region-card">
+      {{region}}
+    </button>
+</div>

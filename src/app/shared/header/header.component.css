@@ -1,0 +1,25 @@
+header {
+  height: 10%;
+  border-bottom: 1px black solid;
+  display: flex;
+  align-items: center;
+}
+
+.back-button {
+  margin-left: 20px;
+  height: 50px;
+  width: 100px;
+}
+
+img {
+  width: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.about-button {
+  margin-right: 20px;
+  height: 50px;
+  width: 100px;
+}

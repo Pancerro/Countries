@@ -1,0 +1,11 @@
+.main-view {
+  margin: 0 auto;
+  text-align: center;
+
+}
+.region-card {
+  min-width: 100px;
+  max-height: 50px;
+  margin: 50px 10px;
+}
+

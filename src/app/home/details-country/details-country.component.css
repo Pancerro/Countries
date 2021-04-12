@@ -1,0 +1,30 @@
+.country-container {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.country-header {
+  margin-bottom: 60px;
+}
+.country-card img {
+  height: 30px;
+  width: 35px;
+  vertical-align:middle
+}
+
+.country-card span {
+  margin-left: 20px;
+  font-size: x-large;
+  vertical-align: middle;
+}
+.country-details {
+  height: 100px;
+  width: 90%;
+ }
+
+.underline {
+  border-bottom: 1px solid black;
+}
+
+.center {
+  margin: 10px auto 0;
+}

@@ -1,0 +1,8 @@
+.home {
+  height: 100%;
+}
+
+.main-content {
+  height: 80%;
+  overflow: auto;
+}

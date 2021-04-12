@@ -1,0 +1,35 @@
+.country-container {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.country-card {
+  padding: 10px;
+  width: 90%;
+}
+.country-card:hover {
+  cursor: pointer;
+}
+.odd {
+  background: lightgray;
+}
+.country-card img {
+  height: 35px;
+  width: 40px;
+  vertical-align:middle
+}
+
+.country-card span {
+  margin-left: 40px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 850px) {
+  .country-container {
+    margin-left: 10px;
+  }
+}
+
+.center {
+  margin: 10px auto 0;
+}
